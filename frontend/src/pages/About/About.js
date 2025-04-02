@@ -17,7 +17,7 @@ const About = () => {
           <img src={profilePic} alt="profile_pic" />
         </div>
         <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
-          <h2 className="col-10 mt-3 mb-1 text-center text-uppercase">About Me</h2>
+          <h2 className="col-10 mt-1 mb-1 text-center text-uppercase">About Me</h2>
           <p>
             I am a highly skilled Full Stack Developer with expertise in designing, developing, and deploying scalable web applications using modern technologies like React JS, Node JS, Express JS, and MongoDB. My technical proficiency extends to MongoDB Atlas Search, AG Grid, and Azure DevOps, enabling me to craft intuitive, efficient, and high-performance solutions with seamless user experiences.
           </p>
