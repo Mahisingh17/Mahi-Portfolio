@@ -49,7 +49,7 @@ const Menus = () => {
         <ul className="nav-items">
           {menuItems.map(({ to, label }) => (
             <li key={to} className="nav-link" onClick={() => handleScroll(to)}>
-              <span>{label}</span>
+              <span style={{fontSize:"14px", fontFamily: '"Playfair Display", "Lora", serif'}}>{label}</span>
             </li>
           ))}
         </ul>

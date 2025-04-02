@@ -31,7 +31,8 @@
 .mobile-navbar-title {
   color: #f8c246;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
+  font-family: "Playfair Display", "Lora", serif;
 }
 
 /* Mobile Menu */
