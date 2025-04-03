@@ -3,7 +3,6 @@ import { toast } from "react-toastify";
 import axios from "axios";
 import "./Contact.css";
 import { motion } from "framer-motion";
-import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import mailSvg from "../../assets/images/Mail.svg";
 
 const Contact = () => {

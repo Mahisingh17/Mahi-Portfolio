@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { motion } from "framer-motion";
 import "./Footer.css";
 
