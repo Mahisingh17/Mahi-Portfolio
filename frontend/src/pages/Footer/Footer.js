@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaGithub, FaGitlab } from 'react-icons/fa';
-import Tada from "react-reveal/Tada";
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { motion } from "framer-motion";
 import "./Footer.css";
 
 const Footer = () => {
@@ -35,9 +35,13 @@ const Footer = () => {
         {/* Footer Text */}
         <div className="row text-center sitefooterbody">
           <div className="col-lg-12 mt-3">
-            <Tada>
-              <p>&copy; 2025 Mahima M. All rights reserved.</p>
-            </Tada>
+            <motion.p
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1.1, opacity: 1 }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+            >
+              &copy; 2025 Mahima M. All rights reserved.
+            </motion.p>
           </div>
         </div>
       </div>
