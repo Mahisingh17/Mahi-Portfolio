@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aff48f68.css",
+    "main.js": "/static/js/main.c9c0c818.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/Capture.PNG": "/static/media/Capture.2c25ed6c4466fea18ab6.PNG",
+    "static/media/Mahima_Resume.pdf": "/static/media/Mahima_Resume.da3636e733770af52fda.pdf",
+    "static/media/mahi.png": "/static/media/mahi.8b54a7753a563d9c3ef1.png",
+    "static/media/Showoff.jpeg": "/static/media/Showoff.caa5eedd61f2283e465a.jpeg",
+    "static/media/E-Commerce.jpg": "/static/media/E-Commerce.f98cf65a683de6eb4430.jpg",
+    "static/media/Mail.svg": "/static/media/Mail.34a72170977ddcb15d89d631ca0086b6.svg",
+    "index.html": "/index.html",
+    "main.aff48f68.css.map": "/static/css/main.aff48f68.css.map",
+    "main.c9c0c818.js.map": "/static/js/main.c9c0c818.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aff48f68.css",
+    "static/js/main.c9c0c818.js"
+  ]
+}
