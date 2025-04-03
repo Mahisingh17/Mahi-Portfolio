@@ -1,0 +1,45 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: "Roboto", "Calibri", sans-serif;
+}
+
+
+h2, h4, h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Roboto", "Lato", "Montserrat", sans-serif;
+  /* font-size: 12px; */
+  line-height: 1.5;
+ }
+
+/* DARK MODE */
+
+#dark {
+  /* background-color: #5f264a; */
+  background-color: #1e1e28;
+
+  color: #f4eee0;
+}
+
+/* ======================= */
+@media (max-width: 600px) {
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

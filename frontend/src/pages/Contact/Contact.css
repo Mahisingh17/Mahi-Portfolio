@@ -1,0 +1,130 @@
+.contact {
+  /* margin-left: 140px; */
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.card0 {
+  box-shadow: 0px 4px 8px 0px #757575;
+  border-radius: 0px;
+}
+
+.card2 {
+  margin: 0px 40px;
+}
+
+.contact-head h2{
+  color: #138781;
+  font-weight: bold !important;
+  border-bottom: 1px solid rgba(19, 135, 129, 0.25);
+  padding-bottom: 10px;
+  text-align: center;
+}
+.card1 .image {
+  padding: 30px;
+  margin-left: 10px;
+  height: 80%;
+  width: 80%;
+}
+.border-line {
+  border-right: 1px solid #e0e0e0;
+}
+.line {
+  height: 1px;
+  width: 45%;
+  background-color: #e0e0e0;
+  margin-top: 10px;
+}
+
+.or {
+  display: flex;
+  width: 10%;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: #bdbdbd;
+  opacity: 1;
+  font-weight: 300;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  border: 1px solid #138781; /* Changed from lightgray to #138781 */
+  border-radius: 2px;
+  margin-top: 5px;
+  width: 100%;
+  color: #138781;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+/* Focus State */
+input:focus,
+textarea:focus {
+  box-shadow: none !important;
+  outline: 1px solid #138781 !important;
+}
+
+button:focus {
+  box-shadow: none;
+  outline-width: 0px;
+}
+
+.button {
+  background-color: #1e1e28;
+  color: white;
+  border-radius: 2px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: #138781;
+  color: white;
+  border: 2px solid #138781;
+}
+
+/* ======== DARK MODE ========= */
+
+#dark .contact-head h2 {
+  color: #f8c246;
+  border-bottom: 1px solid #f8c246;
+}
+
+#dark .button:hover {
+  background-color: #f8c246;
+  border: 2px solid #f8c246;
+}
+
+#dark input,
+#dark textarea {
+  color: #f8c246;
+  border: 1px solid #f8c246 !important; /* Ensure it remains #f8c246 in dark mode */
+}
+
+#dark input:focus,
+#dark textarea:focus {
+  outline: 1px solid #f8c246 !important;
+}
+
+
+/* ======================== */
+@media (max-width: 600px) {
+  .contact {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom:30px;
+  }
+  .contact .card2 {
+    margin-right: 10px;
+  }
+
+  .contact .card2 h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

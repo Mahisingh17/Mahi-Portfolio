@@ -1,0 +1,110 @@
+/* Mobile Navbar */
+.mobile-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+/* Navbar Header */
+.mobile-navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #1e1e1e;
+}
+
+/* Menu & Theme Toggle Buttons */
+.menu-toggle-btn,
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Navbar Title */
+.mobile-navbar-title {
+  color: #f8c246;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Mobile Menu */
+.mobile-navbar-menu {
+  background-color: #222;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Menu Items */
+.mobile-nav-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav-link {
+  padding: 12px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-nav-link a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+#dark .mobile-nav-link a {
+  transition: color 0.3s ease-in-out;
+}
+
+#dark .mobile-nav-link a:hover {
+  color: #f8c246 !important;
+}
+
+/* Dark & Light Theme */
+#dark {
+  background-color: #121212;
+}
+
+#light {
+  background-color: #fff;
+}
+
+#light .mobile-navbar-header {
+  background-color: #f5f5f5;
+}
+
+#light .mobile-navbar-title {
+  color: #138781;
+}
+
+#light .menu-toggle-btn,
+#light .theme-toggle-btn {
+  color: black;
+}
+
+#light .mobile-navbar-menu {
+  background-color: #fff;
+}
+
+#light .mobile-nav-link a {
+  color: black;
+}
+
+#light .mobile-nav-link a:hover {
+  color: #138781;
+}

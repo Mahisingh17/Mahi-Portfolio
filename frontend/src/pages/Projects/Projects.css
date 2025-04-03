@@ -1,0 +1,110 @@
+.project {
+  margin: 50px 0px;
+}
+
+/* Section Title */
+.project h2 {
+  font-weight: bold;
+  color: #138781;
+}
+
+.project hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+/* Category Badge */
+.project-category-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #f29f67;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+
+/* Card Styling */
+.project .card {
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project .card img {
+  height: 250px;
+  width: 100%;
+  border-radius: 24px;
+  padding:20px;
+}
+
+.project .card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  transform: scale(1.03);
+  transition: all 0.5s ease;
+}
+
+/* Tech Stack Badge */
+.card-tech-badge {
+  background-color: #f8c246;
+  text-align: center;
+  border-radius: 20px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Button */
+.ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: #138781;
+  color: white;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.ad-btn:hover {
+  background-color: white;
+  color: #138781;
+  border: 2px solid #138781;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+
+/* ========== DARK MODE ========== */
+#dark .project h2 {
+  color: #f8c246;
+}
+
+#dark .project hr {
+  color: #f8c246;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .project {
+    margin-top: 50px;
+  }
+  .project hr {
+    width: 280px;
+  }
+  .project .card {
+    margin-top: 30px;
+  }
+}
